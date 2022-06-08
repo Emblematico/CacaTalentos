@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entrar</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <div class="pbb-root">
+            <div class="container-form">
+                <form action="#" class="form-main">
+                    <h1 class="form-title">Entrar</h1>
+                    <div class="form-title">Ainda não tem uma conta? <a href="register.html" class="pbb-link">Criar uma agora!</a></div>
+
+                    <div class="form-item form-item-group" style="padding: 20px 0;">
+                        <div class="form-title">Eu sou...</div>
+                        <div class="form-item-radio">
+                            <div class="form-item-radio-item">
+                                <input id="user-type-aluno" type="radio" name="user-type" value="aluno" checked>
+                                <label for="user-type-aluno" class="form-radio-label">
+                                    Aluno
+                                </label>
+                            </div>
+                            <div class="form-item-radio-item">
+                                <input id="user-type-empresa" type="radio" name="user-type" value="empresa">
+                                <label for="user-type-empresa" class="form-radio-label">
+                                    Empresa
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <label for="documento">CPF/CNPJ</label>
+                        <input type="text" class="form-input" name="documento" id="documento">
+                    </div>
+                    <div class="form-item">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-input" name="senha" id="senha">
+                    </div>
+                    <div class="form-item">
+                        <input type="submit" value="Entrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

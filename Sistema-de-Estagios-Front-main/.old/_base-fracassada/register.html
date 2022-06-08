@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <div class="pbb-root">
+            <div class="container-form">
+                <form action="#" class="form-main">
+                    <h1 class="form-title">Criar uma conta</h1>
+                    <div class="form-title">Já tem uma conta? <a href="login.html" class="pbb-link">Fazer Login</a></div>
+
+                    <div class="form-item form-item-group" style="padding: 20px 0;">
+                        <div class="form-title">Eu sou...</div>
+                        <div class="form-item-radio">
+                            <div class="form-item-radio-item">
+                                <input id="user-type-aluno" type="radio" name="user-type" value="aluno" checked>
+                                <label for="user-type-aluno" class="form-radio-label">
+                                    Aluno
+                                </label>
+                            </div>
+                            <div class="form-item-radio-item">
+                                <input id="user-type-empresa" type="radio" name="user-type" value="empresa">
+                                <label for="user-type-empresa" class="form-radio-label">
+                                    Empresa
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <label for="nome-fantasia">Nome Fantasia</label>
+                        <input type="text" class="form-input" name="nome-fantasia" id="nome-fantasia">
+                    </div>
+                    <div class="form-item">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-input" name="email" id="email">
+                    </div>
+                    <div class="form-item form-item-group">
+                        <div class="form-group-horizontal">
+                            <div class="form-item">
+                                <label for="estado">Estado</label>
+                                <select class="form-input" name="estado" id="estado">
+                                    <option value="">Selecione</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+                            <div class="form-item">
+                                <label for="cidade">Cidade</label>
+                                <input type="text" class="form-input" name="cidade" id="cidade">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <label for="documento">CNPJ</label>
+                        <input type="text" class="form-input" name="documento" id="documento">
+                    </div>
+                    <div class="form-item">
+                        <label for="senha">Senha</label>
+                        <input type="password" class="form-input" name="senha" id="senha">
+                    </div>
+                    <div class="form-item">
+                        <label for="confirmar-senha">Confirmar Senha</label>
+                        <input type="password" class="form-input" name="confirmar-senha" id="confirmar-senha">
+                    </div>
+                    <div class="form-item">
+                        <input type="submit" value="Entrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

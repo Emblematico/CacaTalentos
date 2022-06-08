@@ -1,0 +1,231 @@
+body{
+    margin: 0; padding: 0;
+}
+#topo{
+    width: 100%;
+    height: auto;
+}
+#acessibilidade{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+}
+#atalhos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    list-style: none;
+    padding-left: 1%;
+}
+#atalhos li{
+    display: inline;
+}
+#atalhos li a{
+    color: black;
+}
+#atalhos li a:hover{
+    color: #3e3e3e;
+}
+#pgacess{
+    padding-left: 20%;
+}
+.contraste, .fonte{
+    padding-left: 2px;
+}
+
+.pagination {
+    display: block;
+    background-color: #000000;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.pagination a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd; 
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+#pefilfundo{
+    width: 90%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 16px;
+}
+#pefilfundo h1{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pefilfundo h2{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+
+
+/*botôes*/
+
+
+.btn {
+    background-color: #fff;
+    width: 47%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+  }
+
+  .btn2 {
+    background-color: #707070;
+    width: 47%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 25px; 
+    color:#fff;
+  }
+
+  .btn3{
+    background-color: #707070;
+    width: 95%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color:#fff;
+    font-size: 16px;
+  }
+
+
+#pefilfundo p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+input{
+    width: 75%;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+      color: #000000;
+}
+label{
+   width: 80px;
+   display: inline-block;
+   font-size: 16px;
+      color: #000000;
+      margin-bottom: 1%;
+}
+
+
+
+#caixa{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.589);
+    display: grid;
+   padding-left: 3%;
+   
+}
+
+#formulario{
+    padding-left: 25%;
+    padding-top: 10%;
+}
+.mc{
+    text-align: center;
+}
+.mc1{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/*----------página criarConta*******************************/
+
+a:hover {
+    color: rgb(115, 120, 131);
+    text-decoration:rgb(0, 0, 0);
+  }
+
+  
+.genero__name{
+      font-size: 16px;
+      color: #000000;
+}
+.cursos__name{
+    font-size: 16px;
+    color: #000000;
+}
+.semestre__name{ 
+    font-size: 16px;
+    color: #000000; 
+}
+
+
+#semestre{
+    background-color: #fff;
+    width: 10%;
+    height: 30px;
+    float: right;
+    margin-right: 5%;
+    border-radius: 6px;
+
+}
+#genero{
+    background-color: #fff;
+    width: 77%;
+    height: 40px;
+    float: right;
+    margin-right: 5%;
+    border-radius: 6px;
+     
+}
+#Senha{
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    width: 60%;
+}
+
+#ConfirmarSenha{
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    width: 60%;
+}
+#RA{
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    width: 60%;
+}
+
+#cursos{
+    background-color: #fff;
+    width: 42%;
+    height: 40px; 
+    margin-left: 9%;
+    margin-right: 5%;
+    border-radius: 6px;
+}
